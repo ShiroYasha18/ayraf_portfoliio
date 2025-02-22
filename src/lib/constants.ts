@@ -87,6 +87,24 @@ export const STUDIES = [
  
 ]
 export const EXPERIENCE = [
+
+  {
+    "company": "IBM",
+    "location": "Remote",
+    "position": "AI Intern",
+    "start": "November 2024",
+    "end": "Present",
+    "tasks": [
+        "Developed a multi-stage AI pipeline to evaluate handwritten answer sheets using LLMs, achieving 88% higher accuracy than traditional OCR.",
+        "Integrated IBM’s internal data ingestion software to convert PDFs into Parquet format, maintaining structure and layout for efficient processing.",
+        "Benchmarked and optimized handwriting recognition by testing 10+ Vision-Language models, including WatsonX, Pixtral, Gemini, and other state-of-the-art models.",
+        "Implemented LLaMA 3.2 90B Vision Instruct model, significantly improving answer extraction accuracy in complex answer formats.",
+        "Designed a hybrid grading system using cosine similarity, sentence transformers, and adaptive NLP techniques, dynamically switching algorithms based on institutional grading preferences.",
+        "Engineered an advanced diagram processing module, enabling AI to interpret and analyze handwritten diagrams with structured evaluation.",
+        "Pioneered a custom regex-based chunking strategy, enhancing segmented answer evaluation and boosting efficiency in large-scale answer sheet processing."
+    ],
+},
+
   {
     company: 'Intel Technologies Pvt. Ltd.',
     location: 'Bengaluru, India',
@@ -97,6 +115,7 @@ export const EXPERIENCE = [
       'Created multiple AI-powered internal tools to optimize data processing and model performance.',
       'Gained hands-on experience with LLM fine-tuning techniques.',
       'Explored Graph Retrieval-Augmented Generation (RAG) for enhanced data retrieval and understanding.',
+      'Developed an internal tool to convert natural language to SQL using defog/sqlcoder-7b-2 from HuggingFace improving their old model improving the overall performance by 23%',
     ],
   },
   {
